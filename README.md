@@ -23,7 +23,7 @@ This model does predict the mpg of the MechaCar, we can see this due to the R-sq
 
 ![t-test_lot 2](https://github.com/Mparra14/MechaCar_Statistical_Analysis/blob/main/t-test_lot%202.png)
 
-![t-test_lot 3]()
+![t-test_lot 3](https://github.com/Mparra14/MechaCar_Statistical_Analysis/blob/main/t-test_lot3.png)
 
 Looking at each the T-Test performed on the overall lots we can see that the p-value was 0.06 which would make it larger than the significant value of 0.05, this would mean that we are failing to reject the null hypothesis. Doing the T-test on each lot we were able to confirm that lot 1 and lot 2 have a p-value of 1 and 0.6, respectively, this would mean that we are not able to reject the null hypthesis for these lot either. The last lot, lot 3 had a p-value that was smaller than the significant value, the p-value was 0.04. This would mean that we would reject the null hypothesis for this lot. These results can be viewed in the pictures above. 
 
