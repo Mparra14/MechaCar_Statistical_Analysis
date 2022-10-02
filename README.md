@@ -19,7 +19,7 @@ This model does predict the mpg of the MechaCar, we can see this due to the R-sq
 ## T-Tests on Suspension Coils
 ![t-test](https://github.com/Mparra14/MechaCar_Statistical_Analysis/blob/main/t-test.png)
 
-![t-test_lot 1]()
+![t-test_lot 1](https://github.com/Mparra14/MechaCar_Statistical_Analysis/blob/main/t-test_lot%201.png)
 ![t-test_lot 2]()
 ![t-test_lot 3]()
 
