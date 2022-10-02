@@ -13,7 +13,16 @@ This model does predict the mpg of the MechaCar, we can see this due to the R-sq
 ![summary]()
 ![lot_summary]()
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 * Looking at the summary for all the PSI we were able to get a variance of 62.29 which is less than a 100 pounds per square inch, which would make the manufacturing data meet the specifications needed overall. Looking at each lot we were able to see that there is one lot that is above 100 psi and that is lot 3. So While overall the manufacturing of each MechaCar seems to be following the specifications, so even though there was one lot that did not follow the specifications for PSI, overall the varience was lower than 100 PSI. 
 
 ## T-Tests on Suspension Coils
+![t-test]()
+![t-test_lot 1]()
+![t-test_lot 2]()
+![t-test_lot 3]()
+
+Looking at each the T-Test performed on the overall lots we can see that the p-value was 0.06 which would make it larger than the significant value of 0.05, this would mean that we are failing to reject the null hypothesis. Doing the T-test on each lot we were able to confirm that lot 1 and lot 2 have a p-value of 1 and 0.6, respectively, this would mean that we are not able to reject the null hypthesis for these lot either. The last lot, lot 3 had a p-value that was smaller than the significant value, the p-value was 0.04. This would mean that we would reject the null hypothesis for this lot. These results can be viewed in the pictures above. 
+
+## Study Design: MechaCar vs Competition
+
+In a study design to compare the MechaCar against others in the market, one big factor that we can look into would be fuel efficiency, the data that we would be able to compare it to would be Miles per Gallon. The type of tests that we would be able to perform are T-test to find the mean of mpg on both the competition and the MechaCar. The null hypothesis would be based on the mean of mpg of the MechaCar, meaning that we would have to find models that are in the market, that have the same ground clearance and length (as we found that these two variables are correlated to the mpg of the car) and compare these cars. 
