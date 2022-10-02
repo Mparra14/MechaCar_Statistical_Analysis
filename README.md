@@ -17,7 +17,8 @@ This model does predict the mpg of the MechaCar, we can see this due to the R-sq
 * Looking at the summary for all the PSI we were able to get a variance of 62.29 which is less than a 100 pounds per square inch, which would make the manufacturing data meet the specifications needed overall. Looking at each lot we were able to see that there is one lot that is above 100 psi and that is lot 3. So While overall the manufacturing of each MechaCar seems to be following the specifications, so even though there was one lot that did not follow the specifications for PSI, overall the varience was lower than 100 PSI. 
 
 ## T-Tests on Suspension Coils
-![t-test]()
+![t-test](https://github.com/Mparra14/MechaCar_Statistical_Analysis/blob/main/t-test.png)
+
 ![t-test_lot 1]()
 ![t-test_lot 2]()
 ![t-test_lot 3]()
